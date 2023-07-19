@@ -70,6 +70,22 @@
         grid-template-columns: 1fr;
         padding: 0 10px;
     }
+
+    .feature-part {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .feature-part-content {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .feature-img-2 {
+        width: 200px;
+        margin-left: 80px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -130,6 +146,22 @@
         padding: 0 10px;
     }
 
+    .feature-part {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .feature-part-content {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .feature-img-2 {
+        width: 200px;
+        margin-left: 80px;
+    }
+
 }
 
 
@@ -149,6 +181,26 @@
 
     .team-img {
         width: 100%;
+    }
+
+    .feature-part {
+        padding: 0 10px;
+        margin-top: 50px;
+    }
+
+    .feature-part-content {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .feature-img {
+        margin-top: 100px;
+    }
+
+    .feature-img-2 {
+        width: 200px;
+        margin-left: 80px;
     }
 }
 

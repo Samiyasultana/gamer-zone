@@ -239,3 +239,29 @@ span {
     text-align: left;
     padding: 30px 10px;
 }
+
+/* Feature part */
+
+.feature-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.feature-part-content {
+    text-align: right;
+    width: 30%;
+
+}
+
+.feature-img {
+    margin-left: 30px;
+}
+
+.feature-img-2 {
+    position: relative;
+    width: 320px;
+    bottom: 200px;
+    right: 100px;
+}

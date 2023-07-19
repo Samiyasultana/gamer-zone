@@ -265,3 +265,36 @@ span {
     bottom: 200px;
     right: 100px;
 }
+
+/* Top Gamse */
+.top-games {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.top-game-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 0.2s;
+    margin: 5px 10px;
+
+
+}
+
+.top-game-item:hover {
+    border: 1px solid #f948b2;
+}
+
+.top-game-item:hover a {
+    color: #f948b2;
+}
+
+.top-game-item img {
+    width: 50px;
+    margin-right: 15px;
+}

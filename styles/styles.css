@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    color: #534c64;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 1.3em;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 1.3em;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 1.3em;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #534c64;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.3em;
+    color: #534c64;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+span {
+    color: #f948b2;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.primary-btn,
+.secondary-btn {
+    border: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border-radius: 48px;
+    cursor: pointer;
+}
+
+.primary-btn {
+
+    background: #f948b2;
+}
+
+.secondary-btn {
+    background: #4ec5f7;
+    ;
+}
+
+/* Header Part Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo a {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo a img {
+    width: 90px;
+}
+
+.nav-logo a h2 {
+    margin-left: 10px;
+}
+
+.nav-menu-wraper {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu-wraper li a {
+    margin: 0 10px;
+}
+
+.follow-menu {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    color: white;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.1);
+    padding: 8px;
+}
+
+.follow-menu p {
+    margin: 0;
+}
+
+.follow-menu .youtube {
+    color: red;
+}
+
+.follow-menu .tiktok {
+    color: #000;
+}
+
+.follow-menu a {
+    margin: 0 10px;
+    font-size: 20px;
+}

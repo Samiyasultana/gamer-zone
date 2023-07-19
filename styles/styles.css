@@ -20,6 +20,10 @@ h3 {
     line-height: 1.3em;
 }
 
+section {
+    padding: 100px 0;
+}
+
 a {
     display: inline-block;
     text-decoration: none;
@@ -157,4 +161,81 @@ span {
 
 .banner-button {
     margin-top: 30px;
+}
+
+.teams-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.team-content {
+    width: 40%;
+    text-align: right;
+}
+
+.team-img {
+    width: 55%;
+}
+
+/* video part */
+.section-title {
+    text-align: center;
+}
+
+.section-title h2,
+.section-title p {
+    margin: 0;
+}
+
+.video-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-top: 60px;
+
+}
+
+.video-card {
+    position: relative;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s ease-in;
+    background: #000;
+    border-radius: 15px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.video-card:hover .overlay {
+    opacity: 0.8;
+}
+
+.icon {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video-card-text {
+    text-align: left;
+    padding: 30px 10px;
 }

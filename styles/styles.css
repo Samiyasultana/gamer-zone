@@ -132,3 +132,29 @@ span {
     margin: 0 10px;
     font-size: 20px;
 }
+
+/* Banner STyles */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-content h1,
+.banner-content h2 {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.banner-content .icon-list p i {
+    color: #f948b2;
+    margin-right: 10px;
+}
+
+.banner-button {
+    margin-top: 30px;
+}

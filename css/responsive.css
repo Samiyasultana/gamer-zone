@@ -1,4 +1,16 @@
 @media (max-width: 575.98px) {
+    h1 {
+        font-size: 55px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
     .navbar {
         flex-direction: column;
     }
@@ -9,6 +21,28 @@
 
     .nav-menu-wraper li {
         margin-bottom: 10px;
+    }
+
+    .banner {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .banner-content {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+
+    }
+
+    .icon-list {
+        text-align: left;
+        margin-left: 30%;
+    }
+
+    .banner-img {
+        width: 100%;
+        margin-top: 30px;
     }
 
 }
@@ -25,10 +59,37 @@
     .nav-menu-wraper li {
         margin-bottom: 10px;
     }
+
+    .banner {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .banner-content {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+
+    }
+
+    .icon-list {
+        text-align: left;
+        margin-left: 30%;
+    }
+
+    .banner-img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
 }
 
 
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #header {
+        padding: 0 30px;
+    }
+}
 
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
